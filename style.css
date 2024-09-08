@@ -1,6 +1,7 @@
 html, body {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
+    overflow-y: hidden;
 }
 body {
     background-color: hsl(212, 45%, 89%);
@@ -8,10 +9,10 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
+    
     .qr-card {
         background-color: hsl(0, 0%, 100%);
-        width: 320px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
