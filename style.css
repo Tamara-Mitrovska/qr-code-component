@@ -1,0 +1,47 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .qr-card {
+        font-family: src();
+        background-color: hsl(0, 0%, 100%);
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
+        border-radius: 20px;
+        text-align: center;
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        p {
+            font-size: 15px;
+            color: hsl(216, 15%, 48%)
+        }
+
+    }
+}
+
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
